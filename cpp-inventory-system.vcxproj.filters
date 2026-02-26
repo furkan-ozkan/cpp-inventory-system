@@ -27,9 +27,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Item.h">
       <Filter>Header Files\Item</Filter>
     </ClInclude>
@@ -38,6 +35,9 @@
     </ClInclude>
     <ClInclude Include="InventorySlot.h">
       <Filter>Header Files\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Header Files\Item</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +52,9 @@
     </ClCompile>
     <ClCompile Include="InventorySlot.cpp">
       <Filter>Source Files\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Source Files\Item</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

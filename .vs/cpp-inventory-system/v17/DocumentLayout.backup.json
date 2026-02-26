@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\cpp\\cpp-inventory-system\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB654B6D-E251-469F-9DAF-7447E8D99535}|cpp-inventory-system.vcxproj|D:\\Projects\\cpp\\cpp-inventory-system\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB654B6D-E251-469F-9DAF-7447E8D99535}|cpp-inventory-system.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB654B6D-E251-469F-9DAF-7447E8D99535}|cpp-inventory-system.vcxproj|D:\\Projects\\cpp\\cpp-inventory-system\\InventorySlot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB654B6D-E251-469F-9DAF-7447E8D99535}|cpp-inventory-system.vcxproj|solutionrelative:InventorySlot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB654B6D-E251-469F-9DAF-7447E8D99535}|cpp-inventory-system.vcxproj|D:\\Projects\\cpp\\cpp-inventory-system\\InventorySlot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB654B6D-E251-469F-9DAF-7447E8D99535}|cpp-inventory-system.vcxproj|solutionrelative:InventorySlot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Projects\\cpp\\cpp-inventory-system\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\Projects\\cpp\\cpp-inventory-system\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAkwIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-26T22:44:38.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventorySlot.h",
+              "DocumentMoniker": "D:\\Projects\\cpp\\cpp-inventory-system\\InventorySlot.h",
+              "RelativeDocumentMoniker": "InventorySlot.h",
+              "ToolTip": "D:\\Projects\\cpp\\cpp-inventory-system\\InventorySlot.h",
+              "RelativeToolTip": "InventorySlot.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-26T22:44:06.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventorySlot.cpp",
+              "DocumentMoniker": "D:\\Projects\\cpp\\cpp-inventory-system\\InventorySlot.cpp",
+              "RelativeDocumentMoniker": "InventorySlot.cpp",
+              "ToolTip": "D:\\Projects\\cpp\\cpp-inventory-system\\InventorySlot.cpp",
+              "RelativeToolTip": "InventorySlot.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-26T22:43:59.078Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

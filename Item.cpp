@@ -1,7 +1,8 @@
 #include "Item.h"
 #include <string>
 
-	Item::Item(std::string itemName, int currentAmount, int maxStackAmount) :
+	Item::Item(int itemID, std::string itemName, int currentAmount, int maxStackAmount) :
+		_itemID(itemID),
 		_itemName(itemName),
 		_itemCurrentAmount(currentAmount),
 		_itemMaxStackAmount(maxStackAmount)
@@ -38,6 +39,11 @@
 	int Item::GetMaxStackAmount() const
 	{
 		return _itemMaxStackAmount;
+	}
+
+	int Item::GetItemID() const
+	{
+		return _itemID;
 	}
 
 	bool Item::IsEmpty() const

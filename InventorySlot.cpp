@@ -2,17 +2,27 @@
 
 InventorySlot::~InventorySlot() {}
 
-bool InventorySlot::SetItem(Item item)
+bool InventorySlot::SetItem(int itemID)
 {
-
+	if (_holdingItemID == -1)
+	{
+		_holdingItemID = itemID;
+		return true;
+	}
+	return false;
 }
 
-Item InventorySlot::GetHoldedItem()
+int InventorySlot::GetHoldedItem()
 {
-
+	return _holdingItemID;
 }
 
 bool InventorySlot::IsEmpty()
 {
-	return _holdedItem == nullptr;
+	return _holdingItemID == -1;
+}
+
+void InventorySlot::ClearSlot()
+{
+	_holdingItemID = -1;
 }

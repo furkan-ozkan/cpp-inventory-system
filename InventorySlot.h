@@ -5,16 +5,17 @@
 class InventorySlot
 {
 public:
-	InventorySlot();
-	virtual ~InventorySlot() {}
+	InventorySlot() = default;
+	virtual ~InventorySlot();
 
-	bool SetItem(Item item) {}
-	Item GetHoldedItem() {}
+	bool SetItem(int itemID);
+	int GetHoldedItem();
 
-	bool IsEmpty() {}
+	bool IsEmpty();
+	void ClearSlot();
 
 
 private:
-	std::unique_ptr<Item> _holdedItem;
+	int _holdingItemID = -1;
 };
 
